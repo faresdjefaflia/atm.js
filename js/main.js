@@ -5,7 +5,7 @@
 
     // login.addEventListener("click", () => {
     //   if (user.value === "frscodes" && pass.value === "frscodes"){
-    //     window.location.href = "/pull.html";
+    //     window.location.href = "pull";
     //   } else{
     //     alert("ERROR IN PASSWORD OR USERNAME, PLEASE TRY: frscodes")
     //     document.querySelector(".user").style.border = "solid #ff0000 2px";
