@@ -41,12 +41,12 @@
     let pass = document.querySelector(".pass input");
 
     login.addEventListener("click", () => {
-      if (user.value === "frscodes" && pass.value === "frscodes"){
+      if (user.value === "admin" && pass.value === "admin"){
         window.location.href = "pull";
       } else{
-        alert("ERROR IN PASSWORD OR USERNAME, PLEASE TRY: frscodes")
         document.querySelector(".user").style.border = "solid #ff0000 2px";
         document.querySelector(".pass").style.border = "solid #ff0000 2px";
+        alert("ERROR IN PASSWORD OR USERNAME, PLEASE TRY: admin")
       };
     });
   </script>
