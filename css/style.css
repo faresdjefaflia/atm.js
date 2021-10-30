@@ -240,3 +240,17 @@ section{
   height:30px;
   background-color:#5b3f3d;
 }
+
+/* SWAL2 */
+/* THANKS: https://sweetalert2.github.io/ */
+
+.swal2-container.swal2-center>.swal2-popup{
+  border: solid 3px #e07a5f !important;
+  border-radius:10px !important;
+}
+.swal2-styled.swal2-confirm{
+  background-color: #e07a5f !important;
+} .swal2-styled.swal2-confirm:focus{box-shadow: none !important;}
+.swal2-title, .swal2-html-container{
+  color: #3d405b !important;
+}

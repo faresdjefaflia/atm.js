@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
   <form class="p-c">
@@ -34,21 +36,6 @@
       <input type="button" value="Login">
     </div>
   </form>
-
-  <script>
-    let login = document.querySelector(".login input");
-    let user = document.querySelector(".user input");
-    let pass = document.querySelector(".pass input");
-
-    login.addEventListener("click", () => {
-      if (user.value === "admin" && pass.value === "admin"){
-        window.location.href = "pull";
-      } else{
-        document.querySelector(".user").style.border = "solid #ff0000 2px";
-        document.querySelector(".pass").style.border = "solid #ff0000 2px";
-        alert("ERROR IN PASSWORD OR USERNAME, PLEASE TRY: admin")
-      };
-    });
-  </script>
+  <script src="js/main.js"></script>
 </body>
 </html>
