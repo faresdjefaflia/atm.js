@@ -254,3 +254,9 @@ section{
 .swal2-title, .swal2-html-container{
   color: #3d405b !important;
 }
+
+
+.my-name{
+  color: #e07a5f;
+  text-align: center;
+}
